@@ -761,7 +761,8 @@ hi! link gitcommitUnmergedArrow  gitcommitUnmergedFile
 " ---------------------------------------------------------------------
 exe "hi! htmlTag"           .s:fmt_none .s:fg_base01 .s:bg_none
 exe "hi! htmlEndTag"        .s:fmt_none .s:fg_base01 .s:bg_none
-exe "hi! htmlTagN"          .s:fmt_bold .s:fg_base1  .s:bg_none
+" exe "hi! htmlTagN"          .s:fmt_bold .s:fg_base1  .s:bg_none
+exe "hi! htmlTagN"          .s:fmt_none .s:fg_blue   .s:bg_none
 " exe "hi! htmlTagName"       .s:fmt_bold .s:fg_blue   .s:bg_none
 exe "hi! htmlTagName"       .s:fmt_none .s:fg_blue   .s:bg_none
 exe "hi! htmlSpecialTagName".s:fmt_ital .s:fg_blue   .s:bg_none
